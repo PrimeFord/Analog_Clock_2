@@ -105,28 +105,22 @@ span {
   left: 39px;
 }
 
-.diallines {
+.dial p {
+  width: 44%;
+  height: 2px;
+  border-right: 0.7rem solid #383838;
   position: absolute;
-  top: 15px;
   left: 50%;
-  margin-left: -1px;
-  width: 2px;
-  height: 10px;
-  background: #b3b3b0;
-  z-index: 1;
-  transform-origin: 50% 160px;
+  transform-origin: 0% 0%;
+  position: absolute;
+  top: 45%;
+  transform: rotate(calc(6deg * var(--x)));
 }
 
-.diallines:nth-of-type(5n) {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  margin-left: -2px;
-  width: 4px;
-  height: 25px;
-  background: #b3b3b0;
-  z-index: 1;
-  transform-origin: 50% 165px;
+.dial .thickclock {
+  width: 42%;
+  height: 5px;
+  border-right: 1.5rem solid #777;
 }
 
 .date {
