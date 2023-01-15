@@ -5,9 +5,9 @@ const min = document.querySelector(".min-hand");
 const sec = document.querySelector(".sec-hand");
 const dates = document.querySelector(".date");
 
-let c = dialLines.cloneNode(true);
-c.style.transform = "rotate(" + 6 + "deg)";
-dial.appendChild(c);
+// let c = dialLines.cloneNode(true);
+// c.style.transform = "rotate(" + 6 + "deg)";
+// dial.appendChild(c);
 // for (var i = 1; i < 60; i++) {
 //   dialLines[i] = dialLines[i - 1].clone().insertAfter(dialLines[i - 1]);
 //   dialLines[i].css("transform", "rotate(" + 6 * i + "deg)");
